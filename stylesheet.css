@@ -1,11 +1,54 @@
 /* CSS FILE */
+/*Author by Irwan Ruslan*/
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255,255,255, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: #00A441;
+  color: white;
+}
+
 /*AUTHOR BY WAHYU MAULANA ZEN*/
+* {
+  box-sizing: border-box;
+}
+
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: "Lucida Grande";
 }
@@ -13,52 +56,172 @@ body {
 a {
   text-decoration: none;
 }
+
+.clear {
+  clear: left;
+}
+
 .container {
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }
-/*END*/
 
-
-/*Author by Irwan Ruslan*/
-.header {
-  overflow: hidden;
-
-  padding: 20px 10px;
+.top-wrapper h1 {
+  color: #141414;
+  opacity: 0.7;
+  font-size: 30px;
+  margin-bottom: 10px;
+  line-height: 1.2em;
 }
 
-
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://www.madaninews.id/wp-content/uploads/2018/08/IMG-20170831-WA0022.jpg);
+  background-size: cover;
+  color: white;
 }
 
+.top-wrapper p {
+   opacity: 0.7;
+  margin-bottom: 3px;
+    color:#141414;
+    font-size: 15px;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    width: 450px;
+}
+.icons{
+  width:450px;
+}
 
-.header a.logo {
-  font-size: 25px;
+span{
   font-weight: bold;
 }
 
-
-.header a:hover {
-  background-color: #00A441;
-  color: white;
+.btn-wrapper {
+  text-align: left;
+  margin: 20px 0;
 }
 
-
-/*.header a.active {
+.order {
   background-color: #00A441;
+  font-size: 24px;
+  box-shadow: 0 7px #1a7940;
+}
+
+.order:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.btn {
+  padding: 12px 24px;
   color: white;
-}*/
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
 
+.btn:hover {
+  opacity: 1;
+}
 
-.header-right {
+.fa {
+  margin-right: 5px;
+}
+
+.item-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.item {
+  float: left;
+  width: 25%;
+}
+
+.item-icon {
+  position: relative;
+}
+
+.item-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: black;
+}
+.item-icon img {
+  
+  width: 200px;
+  height:200px;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.menu-icon {
+  color: white;
   float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
+
