@@ -1,1 +1,10 @@
 /* CSS FILE */
+li {
+  list-style: none;
+  float:right;
+  padding: 10px 20px;
+}
+.header-logo {
+  float: left;
+  font-size: 36px;
+}
