@@ -1,4 +1,25 @@
 /* CSS FILE */
+/*AUTHOR BY WAHYU MAULANA ZEN*/
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/*END*/
+
 
 /*Author by Irwan Ruslan*/
 .header {
@@ -27,15 +48,15 @@
 
 
 .header a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-
-.header a.active {
   background-color: #00A441;
   color: white;
 }
+
+
+/*.header a.active {
+  background-color: #00A441;
+  color: white;
+}*/
 
 
 .header-right {
