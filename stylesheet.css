@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-  font-family: "Lucida Grande";
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a {
@@ -203,22 +203,51 @@ span{
   box-shadow: none;
 }
 
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+  background-color: #00b894;
+  height: 250px;
+}
+
+footer .container{
+  display: flex;
+}
+
+footer .container div{
+  flex: auto;
+}
+
+.footer-address{
+  width: 50%;
+  float: right;
+  margin-left: 250px;
+}
+
+.footer-address span,
+.footer-about span{
+  font-size: 14px;
+  font-weight: lighter;
+  color: #fafafa;
+}
+
+.footer-address div{
+  padding-bottom: 20px;
+}
+
+.footer-address h5,
+.footer-about h5{
+  text-decoration: underline;
+  color: #eee;
+}
+
+.footer-about{
+  float: left;
+  width: 50%;
 }
 
 .menu-icon {
-  color: white;
+  color: black;
   float: right;
   font-size: 25px;
   padding: 21px 0;
