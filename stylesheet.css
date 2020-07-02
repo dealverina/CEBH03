@@ -249,4 +249,6 @@ footer .container div{
   float: left;
   width: 50%;
 }
-
+.menu-icon{
+  display:none;
+}
