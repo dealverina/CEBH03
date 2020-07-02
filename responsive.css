@@ -16,7 +16,7 @@
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
   .header-right {
-    display: none;
+    float:none:
   }
   .item {
     width: 100%;
@@ -47,7 +47,5 @@
     display: block;
     text-align: left;
   }
-  .header-right {
-    float: none;
-  }
+  
 }
