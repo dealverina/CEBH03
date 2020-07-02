@@ -29,8 +29,7 @@
   .item {
     width: 100%;
   }
-  .menu-icon {
-   color: black;
+  .menu {
    float: right;
    font-size: 25px;
    padding: 21px 0;
