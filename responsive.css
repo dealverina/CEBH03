@@ -16,7 +16,7 @@
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
   .header-right {
-    float:none:
+    display:none:
   }
   .item {
     width: 100%;
@@ -42,10 +42,5 @@
   footer {
     text-align: center;
   }
-    .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
+      
 }
