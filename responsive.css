@@ -11,6 +11,14 @@
   .heading h2 {
     font-size: 20px;
   }
+
+  footer .container{
+    flex-wrap: wrap;
+  }
+  .footer-address{
+    padding-left: 50px;
+    margin-left: 0;
+  }
 }
 
 /* Untuk Smartphone */
@@ -41,5 +49,20 @@
   }
   footer {
     text-align: center;
+  }
+
+  footer .container{
+    flex-direction: column;
+  }
+  footer .container div{
+    margin: 0 auto;
+    width: auto;
+  }
+  .footer-about{
+    width: auto;
+    padding-bottom: 50px;
+  }
+  .footer-address{
+    padding-left: 0;
   }
 }

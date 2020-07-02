@@ -203,11 +203,15 @@ span{
   box-shadow: none;
 }
 
+.heading h3 span{
+  font-weight: bold;
+}
+
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
   background-color: #00b894;
-  height: 250px;
+  height: auto;
 }
 
 footer .container{
