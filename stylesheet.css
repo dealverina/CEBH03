@@ -174,9 +174,8 @@ span{
 
 .contents {
   padding: 15px 40px;
-  background-color: #5dca88;
+  background-color: black;
   cursor: pointer;
-  box-shadow: 0 7px #1a7940;
 }
 
 .heading h3 {
